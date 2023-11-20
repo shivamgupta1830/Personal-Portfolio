@@ -1273,8 +1273,13 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
 nav a{
   font-size: 12px;
+}
+
+.skill img {
+  width: 62px;
+  height: 62px;
 }
 }
