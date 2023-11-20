@@ -115,7 +115,7 @@ main {
 }
 
 .details {
-  max-width: 475px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -906,10 +906,10 @@ footer p {
   }
 
   .details h3 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .details p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .inner {
@@ -1019,11 +1019,11 @@ footer p {
     font-weight: 900;
   }
   .details h3 {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 600;
   }
   .details p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -1102,18 +1102,31 @@ footer p {
 @media only screen and (max-width: 600px) {
   .details h1,
   .details h1 span {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .details h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
   .details p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media only screen and (max-width: 544px) {
+
+  .details h1,
+  .details h1 span {
+    font-size: 22px;
+  }
+
+
+  .details h3 {
+    font-size: 14px;
+  }
+  .details p {
+    font-size: 14px;
+  }
 
 
   .inner {
@@ -1193,16 +1206,17 @@ footer p {
     font-size: 13px;
   }
   .details h1 {
-    font-size: 15px;
+    font-size: 22px;
   }
   .details h1 span {
-    font-size: 15px;
+    font-size: 20px;
   }
   .details h3 {
-    font-size: 13px;
+    font-size: 14px;
+   
   }
   .details p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .social-links a img {
@@ -1222,18 +1236,18 @@ footer p {
   }
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 477px) {
   .details h1 {
-    font-size: 13px;
+    font-size: 16px;
   }
   .details h1 span {
-    font-size: 13px;
+    font-size: 16px;
   }
   .details h3 {
     font-size: 12px;
   }
   .details p {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .inner {
@@ -1247,8 +1261,15 @@ footer p {
   }
 
   .skill img {
-    width: 128px;
-    height: 128px;
+    width: 86px;
+    height: 86px;
+  }
+}
+
+@media only screen and (max-width: 477px) {
+  .skill img {
+    width: 72px;
+    height: 72px;
   }
 }
 
