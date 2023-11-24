@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  background-color: #0c2440;
+  background-color: rgb(13, 37, 64);
   color: whitesmoke;
 }
 
@@ -364,15 +364,16 @@ main {
   transition: all 0.4s ease-in-out;
 }
 .skill img:hover {
-  /* box-shadow: 4px 4px 10px rgba(242, 158, 2, 0.6); */
   animation: rotate-2 1s ease-in-out 2 alternate;
   box-shadow: 0px 0px 15px 5px rgba(242, 158, 2, 0.651);
+
+  background-color: rgba(242, 158, 2, 0.1);
 }
 
 .skill h6 {
   font-size: 14px;
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 15px;
   color: rgba(242, 160, 2, 1);
 }
 /* ##########################About me######################## */
@@ -470,6 +471,7 @@ main {
 }
 .project a img:hover {
   box-shadow: 0px 0px 15px 5px rgba(242, 158, 2, 0.651);
+  background-color: rgba(242, 158, 2, 0.1);
   animation: scale-3 0.5s ease-in-out 2 alternate;
 }
 
@@ -1114,12 +1116,10 @@ footer p {
 }
 
 @media only screen and (max-width: 544px) {
-
   .details h1,
   .details h1 span {
     font-size: 22px;
   }
-
 
   .details h3 {
     font-size: 14px;
@@ -1127,7 +1127,6 @@ footer p {
   .details p {
     font-size: 14px;
   }
-
 
   .inner {
     margin-left: 15px;
@@ -1201,8 +1200,7 @@ footer p {
 }
 
 @media only screen and (max-width: 512px) {
-
-  nav a{
+  nav a {
     font-size: 13px;
   }
   .details h1 {
@@ -1213,7 +1211,6 @@ footer p {
   }
   .details h3 {
     font-size: 14px;
-   
   }
   .details p {
     font-size: 14px;
@@ -1274,12 +1271,12 @@ footer p {
 }
 
 @media only screen and (max-width: 420px) {
-nav a{
-  font-size: 12px;
-}
+  nav a {
+    font-size: 12px;
+  }
 
-.skill img {
-  width: 62px;
-  height: 62px;
-}
+  .skill img {
+    width: 62px;
+    height: 62px;
+  }
 }
