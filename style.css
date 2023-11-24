@@ -1258,25 +1258,17 @@ footer p {
   }
 
   .skill img {
-    width: 86px;
-    height: 86px;
+    width: 92px;
+    height: 92px;
   }
 }
 
-@media only screen and (max-width: 477px) {
-  .skill img {
-    width: 72px;
-    height: 72px;
-  }
-}
+
 
 @media only screen and (max-width: 420px) {
   nav a {
     font-size: 12px;
   }
 
-  .skill img {
-    width: 62px;
-    height: 62px;
-  }
+  
 }
