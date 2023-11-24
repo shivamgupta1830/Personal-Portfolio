@@ -573,8 +573,7 @@ main {
 
 .up a img {
   position: fixed;
-  
-  
+
   top: 600px;
   /* bottom: 75px; */
   right: 25px;
@@ -827,6 +826,11 @@ footer p {
   .contact-links a img {
     width: 72px;
   }
+
+  .up a img {
+    visibility: hidden;
+  }
+
 }
 
 @media only screen and (max-width: 985px) {
@@ -877,6 +881,7 @@ footer p {
     font-size: 22px;
   }
 
+ 
   footer {
     font-size: 12px;
   }
@@ -1102,9 +1107,6 @@ footer p {
     font-size: 14px;
   }
 
-  .up a img{
-    width: 24px;
-  }
   .foot-links {
     flex-direction: column;
     justify-content: center;
