@@ -574,8 +574,8 @@ main {
 .up a img {
   position: fixed;
 
-  top: 600px;
-  /* bottom: 75px; */
+  
+  bottom: 17.5px;
   right: 25px;
   width: 32px;
   background-image: linear-gradient(
