@@ -574,7 +574,6 @@ main {
 .up a img {
   position: fixed;
 
-  
   bottom: 17.5px;
   right: 25px;
   width: 32px;
@@ -695,6 +694,8 @@ footer p {
     box-shadow: 0px 0px 25px 10px rgba(242, 158, 2, 0.616);
   }
 }
+
+
 
 @keyframes rotate {
   from {
@@ -830,7 +831,6 @@ footer p {
   .up a img {
     visibility: hidden;
   }
-
 }
 
 @media only screen and (max-width: 985px) {
@@ -881,7 +881,6 @@ footer p {
     font-size: 22px;
   }
 
- 
   footer {
     font-size: 12px;
   }
